@@ -1,0 +1,1 @@
+cmd_mediatek/source/kernel/drivers/aee/ipanic/ipanic.o := arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/source/kernel/drivers/aee/ipanic/ipanic.o mediatek/source/kernel/drivers/aee/ipanic/ipanic-mtd.o mediatek/source/kernel/drivers/aee/ipanic/ipanic-utils.o mediatek/source/kernel/drivers/aee/ipanic/ipanic-emmc.o mediatek/source/kernel/drivers/aee/ipanic/dump-process.o 

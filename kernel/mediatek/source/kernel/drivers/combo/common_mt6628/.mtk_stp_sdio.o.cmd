@@ -1,0 +1,1 @@
+cmd_mediatek/source/kernel/drivers/combo/common_mt6628/mtk_stp_sdio.o := arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/source/kernel/drivers/combo/common_mt6628/mtk_stp_sdio.o mediatek/source/kernel/drivers/combo/common_mt6628/linux/pri/stp_sdio.module mediatek/source/kernel/drivers/combo/common_mt6628/linux/pub/osal.o 

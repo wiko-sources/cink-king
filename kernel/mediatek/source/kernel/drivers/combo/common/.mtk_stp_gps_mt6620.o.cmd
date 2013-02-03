@@ -1,0 +1,1 @@
+cmd_mediatek/source/kernel/drivers/combo/common/mtk_stp_gps_mt6620.o := arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/source/kernel/drivers/combo/common/mtk_stp_gps_mt6620.o mediatek/source/kernel/drivers/combo/common/linux/stp_chrdev_gps.o 

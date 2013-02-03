@@ -1,0 +1,1 @@
+cmd_mediatek/source/kernel/drivers/aee/built-in.o :=  arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/source/kernel/drivers/aee/built-in.o mediatek/source/kernel/drivers/aee/aed/built-in.o mediatek/source/kernel/drivers/aee/common/built-in.o mediatek/source/kernel/drivers/aee/ipanic/built-in.o 
