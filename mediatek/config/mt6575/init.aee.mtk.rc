@@ -1,0 +1,16 @@
+on property:ro.build.type=eng
+    write /proc/sys/fs/suid_dumpable 2    
+
+on boot
+    setprop ro.aee.build.info mtk
+
+service aee_resmon /system/bin/aee_resmon -f /system/etc/resmon.conf
+  class main
+	disabled
+	
+# aee_resmon are controlled by the ro.build.type system property
+on property:ro.build.type=eng
+    start aee_resmon
+
+on property:ro.build.type=user
+    stop aee_resmon
